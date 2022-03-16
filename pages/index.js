@@ -9,7 +9,7 @@ export default function Home() {
         <title>Sharrr. Share end-to-end encrypted files.</title>
         <meta
           name="description"
-          content="Pirates don't share, pirates sharrr. Send end-to-end encrypted files."
+          content="Pirates don't share, pirates sharrr. Share end-to-end encrypted files."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
