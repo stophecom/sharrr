@@ -11,6 +11,10 @@ export default function Home() {
           name="description"
           content="Pirates don't share, pirates sharrr. Share end-to-end encrypted files."
         />
+        <meta
+          name="keywords"
+          content="pirates, share file, end-to-end encrypted file sharing, pirates sharrr, arrr"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
