@@ -18,11 +18,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Container
-          centerContent
-          sx={{ minHeight: '100vh' }}
-          maxW="container.xl"
-        >
+        <Container centerContent sx={{ minHeight: '100vh' }} maxW="container.xl">
           <VStack
             spacing={4}
             sx={{ height: '100vh' }}
@@ -40,18 +36,9 @@ export default function Home() {
               End-to-end encrypted file transfer.
             </Text>
 
-            <Text
-              pt={10}
-              textAlign={'center'}
-              color={'gray.500'}
-              maxWidth={'container.sm'}
-            >
+            <Text pt={10} textAlign={'center'} color={'gray.500'} maxWidth={'container.sm'}>
               This project is in development. Follow{' '}
-              <Link
-                color="pink.500"
-                href="https://twitter.com/stophecom"
-                isExternal
-              >
+              <Link color="pink.500" href="https://twitter.com/stophecom" isExternal>
                 @stophecom
               </Link>{' '}
               for updates. <br />
