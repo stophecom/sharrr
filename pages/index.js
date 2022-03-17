@@ -24,7 +24,7 @@ export default function Home() {
         >{`Pirates don't share, pirates sharrr.`}</h1>
 
         <p className={styles.description}>
-          This website is work in progress. Use{' '}
+          End-to-end encrypted file transfer. <br /> Coming soon. Use{' '}
           <a href="https://scrt.link">scrt.link</a> for now.
         </p>
       </main>
