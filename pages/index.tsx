@@ -40,7 +40,7 @@ export default function Home() {
             </Text>
 
             <Text pt={10} textAlign={'center'} color={'gray.500'} maxWidth={'container.sm'}>
-              This project is in development. Follow{' '}
+              Follow{' '}
               <Link color="pink.500" href="https://twitter.com/stophecom" isExternal>
                 @stophecom
               </Link>{' '}
