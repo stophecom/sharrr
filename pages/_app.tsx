@@ -1,5 +1,5 @@
 import PlausibleProvider from 'next-plausible'
-import { extendTheme, ChakraProvider } from '@chakra-ui/react'
+import { extendTheme, ChakraProvider, ThemeConfig } from '@chakra-ui/react'
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
@@ -10,7 +10,12 @@ const colors = {
   },
 }
 
-const theme = extendTheme({ colors })
+const config: ThemeConfig = {
+  // initialColorMode: 'dark',
+  // useSystemColorMode: true,
+}
+
+const theme = extendTheme({ colors, config })
 
 function MyApp({ Component, pageProps }) {
   return (

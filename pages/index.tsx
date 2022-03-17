@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import { Container, Heading, Text, VStack, Link } from '@chakra-ui/react'
 
 export default function Home() {
@@ -25,14 +26,16 @@ export default function Home() {
             alignItems="center"
             justifyContent={'center'}
           >
+            <Image src={'/logo.svg'} width={100} height={100} />
             <Heading
-              fontSize="6xl"
+              fontSize={['4xl', '5xl', '6xl']}
               as="h1"
               mb={3}
+              mt={3}
               textAlign={'center'}
             >{`Pirates don't share, pirates sharrr.`}</Heading>
 
-            <Text fontSize="3xl" fontWeight={400} textAlign={'center'}>
+            <Text fontSize={['xl', '2xl', '3xl']} fontWeight={400} textAlign={'center'}>
               End-to-end encrypted file transfer.
             </Text>
 
